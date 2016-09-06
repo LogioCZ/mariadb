@@ -1,3 +1,7 @@
+# Changes against the upstream
+
+These versions of `mariadb` images are the same as upstream with the exception of declaring the `VOLUME`.  This allows derived images to import their own immutable data, which is very handy to run tests in CI environments.
+
 # About this Repo
 
 This is the Git repo of the Docker [official image](https://docs.docker.com/docker-hub/official_repos/) for [mariadb](https://registry.hub.docker.com/_/mariadb/). See [the Docker Hub page](https://registry.hub.docker.com/_/mariadb/) for the full readme on how to use this Docker image and for information regarding contributing and issues.
